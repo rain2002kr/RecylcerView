@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         adpater.addItem( new simpleItem( R.drawable.ic_launcher_foreground,"name4","phone" ) );
 
         recycler1.setAdapter( adpater );
-
+//test
     }
 
     class recyclerAdpater extends RecyclerView.Adapter<recyclerAdpater.ViewHolder> {
